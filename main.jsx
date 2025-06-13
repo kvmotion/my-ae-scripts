@@ -5,7 +5,7 @@
     try {
         // Создаем маленькую тестовую композицию с уникальным именем,
         // чтобы точно видеть, что скрипт выполнился.
-        var compName = "Тест " + new Date().getTime();
+        var compName = "TTT " + new Date().getTime();
         app.project.items.addComp(compName, 100, 100, 1, 1, 25);
         
         // Возвращаем простое сообщение об успехе.
