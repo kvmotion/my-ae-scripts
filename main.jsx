@@ -1,7 +1,7 @@
 // Randomizer Panel — Final Version
 (function randomizerPanel(thisObj) {
     function buildUI(thisObj) {
-        var win = (thisObj instanceof Panel) ? thisObj : new Window("palette", "Random", undefined, {resizeable:true});
+        var win = (thisObj instanceof Panel) ? thisObj : new Window("palette", "Rancdsdcsdcsdsc", undefined, {resizeable:true});
         win.orientation = "column";
         win.alignChildren = "fill";
 
