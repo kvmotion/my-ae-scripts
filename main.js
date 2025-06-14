@@ -1,9 +1,11 @@
 window.onload = function () {
     'use strict';
 
-    const csInterface = new CSInterface();
+    // Эта строка пытается найти csInterface в родительском окне (загрузчике)
+// и, если не находит, создает новый для отладки в браузере.
+const csInterface = window.parent.csInterface || new CSInterface();
     // ВАША ПРАВИЛЬНАЯ ССЫЛКА!
-    const scriptURL = 'http://raw.githubusercontent.com/kvmotion/my-ae-scripts/refs/heads/main/example.jsx';
+    const scriptURL = 'http://raw.githubusercontent.com/kvmotion/my-ae-scripts/refs/heads/main/main.jsx';
     let scriptContent = '';
 
     const runBtn = document.getElementById('runScript');
