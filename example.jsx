@@ -1,1 +1,0 @@
-alert("Structure created!");
